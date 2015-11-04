@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   EOF
   spec.version = '0.26'
   spec.autorequire = [ 'sapnwrfc' ]
-  spec.platform = Gem::Platform::WIN32
+  spec.platform = Gem::Platform::CURRENT
   spec.homepage = 'http://www.piersharding.com'
   spec.files = Dir['lib/**/*.rb']
   spec.files += Dir['ext/nwsaprfc/*.so']
