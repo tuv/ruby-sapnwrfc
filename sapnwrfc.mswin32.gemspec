@@ -16,4 +16,5 @@ Gem::Specification.new do |spec|
   spec.files += Dir['ext/nwsaprfc/*.so']
   spec.required_ruby_version = '>= 1.8.0'
   spec.require_paths = ['ext/nwsaprfc', 'lib']
+  spec.extensions = %w[ext/nwsaprfc/extconf.rb]
 end
